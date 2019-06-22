@@ -1,0 +1,41 @@
+<!--
+Akai LPD8 Setup for Renoise Duplex
+Allows control of track mute, level and effect parameters
+v2.0
+by Alesandar Metodiev (alesandarmetodiev@gmail.com)
+Preset file for LPD8 Editor included
+-->
+
+<Device>
+  <Name>AkaiLPD8v2</Name>
+  <Author>Alesandar Metodiev (alesandarmetodiev@gmail.com)</Author>
+  <Description>Controlmap for Akai LPD8
+Mixer = Mute, Levels, Effects = Page, Param values
+Pad CCs: 1-8, Knob CCs: 9-16. Preset file for LPD8 Editor included</Description>
+	<Parameters>
+		<Column>
+			<Row>
+				<Group name="Pads" columns="4">
+					<Param value="CC#5" type="togglebutton" name="PAD5"  maximum="127" minimum="0"/>
+					<Param value="CC#6" type="togglebutton" name="PAD6"  maximum="127" minimum="0"/>
+					<Param value="CC#7" type="togglebutton" name="PAD7"  maximum="127" minimum="0"/>
+					<Param value="CC#8" type="togglebutton" name="PAD8"  maximum="127" minimum="0"/>
+					<Param value="CC#1" type="togglebutton" name="PAD1"  maximum="127" minimum="0"/>
+					<Param value="CC#2" type="togglebutton" name="PAD2"  maximum="127" minimum="0"/>
+					<Param value="CC#3" type="togglebutton" name="PAD3"  maximum="127" minimum="0"/>
+					<Param value="CC#4" type="togglebutton" name="PAD4"  maximum="127" minimum="0"/>
+				</Group>
+				<Group name="Knobs" columns="4">
+					<Param value="CC#9" type="dial" name="K1"  maximum="127" minimum="0"/>
+					<Param value="CC#10" type="dial" name="K2"  maximum="127" minimum="0"/>
+					<Param value="CC#11" type="dial" name="K3"  maximum="127" minimum="0"/>
+					<Param value="CC#12" type="dial" name="K4"  maximum="127" minimum="0"/>
+					<Param value="CC#13" type="dial" name="K5"  maximum="127" minimum="0"/>
+					<Param value="CC#14" type="dial" name="K6"  maximum="127" minimum="0"/>
+					<Param value="CC#15" type="dial" name="K7"  maximum="127" minimum="0"/>
+					<Param value="CC#16" type="dial" name="K8"  maximum="127" minimum="0"/>
+				</Group>
+			</Row>
+		</Column>
+	</Parameters>
+</Device>
